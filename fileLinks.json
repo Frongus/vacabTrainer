@@ -9,21 +9,21 @@
     {
     "class": "Klasse 9",
     "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/000001/refs/heads/main/vocubulary.json",
+    "url": "https://raw.githubusercontent.com/Frongus/000002/refs/heads/main/vocubulary.json",
     "name_in_select": "Klasse 11 - Ka Welche Seiten",
     "id": "000002"
   },
     {
     "class": "Klasse 12",
     "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/000001/refs/heads/main/vocubulary.json",
+    "url": "https://raw.githubusercontent.com/Frongus/000003/refs/heads/main/vocubulary.json",
     "name_in_select": "Klasse 11 - Ka Welche Seiten",
     "id": "000003"
   },
     {
     "class": "Klasse 13",
     "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/000001/refs/heads/main/vocubulary.json",
+    "url": "https://raw.githubusercontent.com/Frongus/000004/refs/heads/main/vocubulary.json",
     "name_in_select": "Klasse 11 - Ka Welche Seiten",
     "id": "000004"
   }
