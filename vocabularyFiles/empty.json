@@ -1,5 +1,5 @@
 [
-  {"LatinWord": "Vokabeltraining", GermanTranslation: "Vokabel"},
-  {"LatinWord": "Vokabeltraining", GermanTranslation: "Trainer"},
-  {"LatinWord": "Vokabeltraining", GermanTranslation: "Englisch / Französisch / Latein"}
+  {"LatinWord": "Vokabeltraining", "GermanTranslation": "Vokabel"},
+  {"LatinWord": "Vokabeltraining", "GermanTranslation": "Trainer"},
+  {"LatinWord": "Vokabeltraining", "GermanTranslation": "Englisch / Französisch / Latein"}
 ]
