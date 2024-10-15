@@ -148,15 +148,14 @@
     function resetSite() {
         window.location.reload();
     }
-    resolveTrainingFile('https://raw.githubusercontent.com/Frongus/000001/refs/heads/main/vocubulary.json', `startup`);
+    resolveTrainingFile('https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/empty.json', `startup`);
 
     var vocabularyData;
 
     async function resolveTrainingFile(url, origen) {
         try {
-            vocabularyData = fetch(url).then(Response => Response.json()).then(data => {
-                return data
-            });
+            vocabularyData = fetch(url).then(Response => Response.json());
+            main();
         } catch {
             alert('Something went wrong whilest resolving the following Url: ' + url);
         }
@@ -259,6 +258,7 @@
 
         if (correctIndex === local) {
             alert('Richtig geantwortet!');
+            makeTest();
         } else {
             alert('Leider Falsch, die richtige antwort wäre: ' + correctTranslation);
             makeTest();
@@ -266,16 +266,6 @@
     }
 
     main();
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-<script>
-    function toData() {
-        window.location = 'DataUrls.html'
-    }
-</script>
-<script>
 
     const fetchURL = 'https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/fileLinks.json';
     const dataURLS = fetch(fetchURL).then(Response => Response.json());
@@ -285,7 +275,7 @@
     var idArray = [];
     var localData;
 
-    async function main() {
+    async function main2() {
         selectContainer.innerHTML = '';
 
         urlArray.push('no Data');
@@ -313,13 +303,15 @@
             alert('Bitte eine Vokabeltrainingsdatei auswählen!');
         } else {
             console.log(selectContainer.options[selectContainer.selectedIndex].index);
-            const selectedIndex = selectContainer.options[selectContainer.selectedIndex].index - 1
+            const selectedIndex = selectContainer.options[selectContainer.selectedIndex].index - 1;
+            vocabularyData = null;
             await resolveTrainingFile(localData[selectedIndex].url, 'New Data set');
-            main();
             alert('Neues Vocabeltraining wurde geladen!');
         }
     }
 
-    main();
-
+    main2();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
