@@ -7,24 +7,10 @@
     "id": "000001"
   },
     {
-    "class": "Klasse 9",
+    "class": "Klasse 6",
     "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/000002/refs/heads/main/vocubulary.json",
-    "name_in_select": "Klasse 11 - Ka Welche Seiten",
+    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/latin_class_6_Section_45_till_45.json",
+    "name_in_select": "Klasse 6 - Lektion 45",
     "id": "000002"
-  },
-    {
-    "class": "Klasse 12",
-    "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/000003/refs/heads/main/vocubulary.json",
-    "name_in_select": "Klasse 11 - Ka Welche Seiten",
-    "id": "000003"
-  },
-    {
-    "class": "Klasse 13",
-    "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/000004/refs/heads/main/vocubulary.json",
-    "name_in_select": "Klasse 11 - Ka Welche Seiten",
-    "id": "000004"
   }
 ]
