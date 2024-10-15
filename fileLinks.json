@@ -8,9 +8,9 @@
   },
     {
     "class": "Klasse 6",
-    "description": "Ka welche Seiten",
-    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/latin_class_6_Section_45_till_45.json",
-    "name_in_select": "Klasse 6 - Lektion 45",
+    "description": "Lektion 45",
+    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/campus2_Latin_Section_45_till_45.json",
+    "name_in_select": "Campus 2 - Latein - Klasse 6 - Lektion 45",
     "id": "000002"
   }
 ]
