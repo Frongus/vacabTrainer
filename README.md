@@ -3,6 +3,7 @@
 
 ChatGPT prompt(Für Daten veraeitung):
 Turn the following data into the following json format:
+
 [
   {"LatinWord": "cadõ, cecidi, clisarum", "GermanTranslation": "fallen"},
 ]
