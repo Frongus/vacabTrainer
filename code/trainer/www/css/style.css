@@ -13,13 +13,13 @@
     --borderColorContarst: #990094;
     --borderColorBase: #4c4c4c;
 
-    --space-xxs:  0.25rem;
-    --space-xs:   0.5rem;
-    --space-sm:   0.75rem;
-    --space-md:   1.25rem;
-    --space-lg:   2rem;
-    --space-xl:   3.25rem;
-    --space-xxl:  5.25rem;
+    --space-xxs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1.25rem;
+    --space-lg: 2rem;
+    --space-xl: 3.25rem;
+    --space-xxl: 5.25rem;
 
     --borderRadius-xxs: 0.25rem;
     --borderRadius-xs: 0.5rem;
@@ -29,13 +29,13 @@
     --borderRadius-xl: 3.25rem;
     --borderRadius-xxl: 5.25rem;
 
-    --font-xxs:  0.25rem;
-    --font-xs:   0.5rem;
-    --font-sm:   0.75rem;
-    --font-md:   1.25rem;
-    --font-lg:   2rem;
-    --font-xl:   3.25rem;
-    --font-xxl:  5.25rem;
+    --font-xxs: 0.25rem;
+    --font-xs: 0.5rem;
+    --font-sm: 0.75rem;
+    --font-md: 1.25rem;
+    --font-lg: 2rem;
+    --font-xl: 3.25rem;
+    --font-xxl: 5.25rem;
 }
 
 * {
@@ -112,7 +112,7 @@ ul {
     padding-left: var(--space-sm);
     padding-right: var(--space-sm);
 }
- 
+
 #btnSecondary:hover {
     color: var(--black);
     cursor: pointer;
@@ -136,6 +136,7 @@ ul {
     padding: var(--space-md);
     border-radius: var(--borderRadius-xs);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 100%;
 }
 
 #contentMainData {
@@ -144,6 +145,7 @@ ul {
     padding: var(--space-md);
     border-radius: var(--borderRadius-xs);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 100%;
 }
 
 #btnForm {
@@ -152,4 +154,19 @@ ul {
     padding: var(--space-md);
     border-radius: var(--borderRadius-xs);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 100%;
+}
+
+@media (width <=350px) {
+    * {
+        max-width: 90%;
+        font-size: 90%;
+    }
+}
+
+@media (width <=380px) {
+    * {
+        max-width: 95%;
+        font-size: 95%;
+    }
 }

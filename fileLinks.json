@@ -12,5 +12,33 @@
     "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/campus2_Latin_Section_45_till_45.json",
     "name_in_select": "Campus 2 - Latein - Klasse 6 - Lektion 45",
     "id": "000002"
+  },
+  {
+    "class": "Klasse 6",
+    "description": "Lektion 45",
+    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/campus2_Latin_Section_46_till_46.json",
+    "name_in_select": "Campus 2 - Latein - Klasse 6 - Lektion 46",
+    "id": "000003"
+  },
+  {
+    "class": "Klasse 6",
+    "description": "Lektion 45",
+    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/campus2_Latin_Section_47_till_47.json",
+    "name_in_select": "Campus 2 - Latein - Klasse 6 - Lektion 47",
+    "id": "000004"
+  },
+  {
+    "class": "Klasse 6",
+    "description": "Lektion 45",
+    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/campus2_Latin_Section_48_till_48.json",
+    "name_in_select": "Campus 2 - Latein - Klasse 6 - Lektion 48",
+    "id": "000005"
+  },
+  {
+    "class": "Klasse 6",
+    "description": "Lektion 45",
+    "url": "https://raw.githubusercontent.com/Frongus/vacabTrainer/refs/heads/main/vocabularyFiles/campus2_Latin_Section_49_till_49.json",
+    "name_in_select": "Campus 2 - Latein - Klasse 6 - Lektion 49",
+    "id": "000006"
   }
 ]
